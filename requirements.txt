@@ -1,4 +1,11 @@
-﻿keyboard==0.13.5
+﻿# Core automation
 PyAutoGUI==0.9.54
-PyGetWindow==0.0.9
+pyscreeze>=0.1.30
+pillow>=10.0.0
 
+# Required for confidence-based image matching
+opencv-python>=4.9.0
+
+# Keyboard/Window helpers
+keyboard==0.13.5
+PyGetWindow==0.0.9
